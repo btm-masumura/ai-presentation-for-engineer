@@ -79,8 +79,8 @@ const Presentation = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 p-6 flex flex-col">
-      <div className="max-w-5xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden flex flex-col flex-grow">
+    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 p-6 flex flex-col overflow-y-scroll">
+      <div className="w-full max-w-7xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden flex flex-col flex-grow">
         {/* ヘッダー */}
         <div className="bg-blue-600 text-white p-4">
           <h1 className="text-2xl font-bold">{slideComponents[currentSlide].title}</h1>
