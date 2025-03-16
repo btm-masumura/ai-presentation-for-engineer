@@ -117,7 +117,7 @@ const SlideMusicGeneration = () => {
               </div>
             </div>
           </div>
-          <div className="bg-blue-50 p-4 rounded-lg w-full max-w-5xl">
+          <div className="bg-blue-50 p-4 rounded-lg w-full">
             <p className="font-semibold text-blue-800 mb-2">ポイント:</p>
             <ul className="list-disc pl-6 text-blue-800">
               <li>具体的な要素（季節、テーマ、曲調）を指定するとよい</li>
@@ -198,7 +198,7 @@ const SlideMusicGeneration = () => {
             </div>
           </div>
           
-          <div className="bg-yellow-50 p-4 rounded-lg w-full max-w-5xl">
+          <div className="bg-yellow-50 p-4 rounded-lg w-full">
             <p className="font-semibold text-yellow-800 mb-2">制限と注意点:</p>
             <ul className="list-disc pl-6 text-yellow-800 space-y-2">
               <li>無料アカウントは1日5回程度の生成が可能です。</li>

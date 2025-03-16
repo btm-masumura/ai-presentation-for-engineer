@@ -48,7 +48,7 @@ const SlideSummary = () => {
             </div>
           </div>
 
-          <div className="w-full max-w-5xl">
+          <div className="w-full">
             <h3 className="text-lg font-bold text-gray-800 mb-3">セクション別の要点</h3>
             <div className="bg-white rounded-lg shadow overflow-hidden">
               <table className="min-w-full">
@@ -241,7 +241,7 @@ const SlideSummary = () => {
             </div>
           </div>
 
-          <div className="w-full max-w-5xl">
+          <div className="w-full">
             <h3 className="text-lg font-bold text-gray-800 mb-3">今後の学習ステップ</h3>
             <div className="bg-white rounded-lg shadow overflow-hidden">
               <div className="p-5 border-b">
