@@ -12,7 +12,7 @@ const SlideMusicGeneration = () => {
       title: "4.1 音楽生成の概要",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6 mb-6">
+          <div className="w-full bg-blue-50 rounded-lg p-6 mb-6">
             <h3 className="text-xl font-bold text-blue-800 mb-4">音楽生成AIの特徴</h3>
             <ul className="list-disc pl-6 space-y-3">
               <li><span className="font-semibold">Suno.ai:</span> 歌詞からメロディ・ボーカルまで自動生成する音楽AI</li>
@@ -21,7 +21,7 @@ const SlideMusicGeneration = () => {
             </ul>
           </div>
           
-          <div className="grid grid-cols-3 gap-4 w-full max-w-3xl mb-6">
+          <div className="grid grid-cols-3 gap-4 w-full mb-6">
             <div className="bg-purple-100 p-4 rounded-lg flex flex-col items-center">
               <div className="text-purple-800 font-bold mb-2">1. 歌詞作成</div>
               <div className="h-24 bg-purple-200 rounded flex items-center justify-center p-2 text-sm text-center">
@@ -41,7 +41,7 @@ const SlideMusicGeneration = () => {
               </div>
             </div>
           </div>
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6 mb-6">
+          <div className="w-full bg-blue-50 rounded-lg p-6 mb-6">
             <h3 className="text-xl font-bold text-blue-800 mb-4">Suno AIでのハンズオン</h3>
             <p className="mb-4">
               Suno AIは無料でも使える音楽生成AIです。<br></br>
@@ -86,7 +86,7 @@ const SlideMusicGeneration = () => {
       title: "4.2.1 歌詞生成 (Gemini)",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl bg-gray-100 rounded-lg p-6 mb-6">
+          <div className="w-full bg-gray-100 rounded-lg p-6 mb-6">
             <div className="font-bold mb-2">Gemini もしくは Suno AIでの歌詞生成:</div>
             <div className="bg-white p-4 rounded border border-gray-300 mb-4">
               <p className="font-semibold text-gray-700 mb-2">プロンプト例:</p>
@@ -117,7 +117,7 @@ const SlideMusicGeneration = () => {
               </div>
             </div>
           </div>
-          <div className="bg-blue-50 p-4 rounded-lg w-full max-w-3xl">
+          <div className="bg-blue-50 p-4 rounded-lg w-full max-w-5xl">
             <p className="font-semibold text-blue-800 mb-2">ポイント:</p>
             <ul className="list-disc pl-6 text-blue-800">
               <li>具体的な要素（季節、テーマ、曲調）を指定するとよい</li>
@@ -133,7 +133,7 @@ const SlideMusicGeneration = () => {
       title: "4.2.2 楽曲生成 (Suno.ai)",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl bg-gray-100 rounded-lg p-6 mb-6">
+          <div className="w-full bg-gray-100 rounded-lg p-6 mb-6">
             <div className="font-bold mb-2">Suno.aiでの楽曲生成:</div>
             <div className="bg-white p-4 rounded border border-gray-300 mb-4">
               <ol className="list-decimal pl-6 space-y-3">
@@ -198,7 +198,7 @@ const SlideMusicGeneration = () => {
             </div>
           </div>
           
-          <div className="bg-yellow-50 p-4 rounded-lg w-full max-w-3xl">
+          <div className="bg-yellow-50 p-4 rounded-lg w-full max-w-5xl">
             <p className="font-semibold text-yellow-800 mb-2">制限と注意点:</p>
             <ul className="list-disc pl-6 text-yellow-800 space-y-2">
               <li>無料アカウントは1日5回程度の生成が可能です。</li>
@@ -215,7 +215,7 @@ const SlideMusicGeneration = () => {
       title: "4.2.3 ジャケット画像作成 (ImageFX)",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl mb-6">
+          <div className="w-full mb-6">
             <div className="bg-gray-100 p-6 rounded-lg">
               <div className="font-bold mb-2">ジャケット画像生成 (ImageFX):</div>
               <div className="bg-white p-4 rounded border border-gray-300 mb-4">
@@ -229,7 +229,7 @@ const SlideMusicGeneration = () => {
             </div>
           </div>
           
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6 mb-6">
+          <div className="w-full bg-blue-50 rounded-lg p-6 mb-6">
             <h3 className="text-xl font-bold text-blue-800 mb-4">ImageFXでジャケ写を作成する</h3>
             <div className="bg-white p-4 rounded-lg border border-blue-200 mb-4">
               <p className="font-bold text-blue-700 mb-2">ImageFXにアクセス：</p>
@@ -255,7 +255,7 @@ const SlideMusicGeneration = () => {
       title: "4.3 聞いてみよう！",
       content: (
         <div className="flex flex-col items-center">
-          <div className="grid grid-cols-2 gap-6 w-full max-w-3xl mb-6">
+          <div className="grid grid-cols-2 gap-6 w-full mb-6">
             <div className="bg-gray-100 p-4 rounded-lg">
               <h3 className="font-bold text-blue-600 mb-3">生成した曲を聞かせてください！</h3>
               <p className="text-sm mb-2">挙手制もしくは指名制で2名の方の1番サビまでをお聞きします。</p>
@@ -268,7 +268,7 @@ const SlideMusicGeneration = () => {
             </div>
           </div>
           
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6">
+          <div className="w-full bg-blue-50 rounded-lg p-6">
             <h3 className="font-bold text-blue-800 mb-3 text-center">自分でもやってみよう！</h3>
             <div className="space-y-4">
               <div className="bg-white p-3 rounded shadow">

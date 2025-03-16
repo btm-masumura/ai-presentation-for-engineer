@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const SlideSummary = () => {
   // サブスライドの状態管理
   const [subSlideIndex, setSubSlideIndex] = useState(0);
-  
+
   // サブスライドの内容を配列で管理
   const subSlides = [
     // サブスライド1: 研修の要点
@@ -12,34 +12,34 @@ const SlideSummary = () => {
       title: "7.1 研修の要点",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6 mb-6">
+          <div className="w-full bg-blue-50 rounded-lg p-6 mb-6">
             <h3 className="text-xl font-bold text-blue-800 mb-4 text-center">生成AI活用の5つのポイント</h3>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="bg-white p-4 rounded-lg shadow text-center">
                 <div className="w-12 h-12 mx-auto bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold mb-3">1</div>
                 <h4 className="font-bold text-gray-800 mb-2">生成AIの基礎</h4>
                 <p className="text-sm">AI技術の進化とGPTモデルの仕組み</p>
               </div>
-              
+
               <div className="bg-white p-4 rounded-lg shadow text-center">
                 <div className="w-12 h-12 mx-auto bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold mb-3">2</div>
                 <h4 className="font-bold text-gray-800 mb-2">代表的ツール</h4>
                 <p className="text-sm">ChatGPT, Claude, Gemini, ImageFX, Suno AI 等</p>
               </div>
-              
+
               <div className="bg-white p-4 rounded-lg shadow text-center">
                 <div className="w-12 h-12 mx-auto bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold mb-3">3</div>
                 <h4 className="font-bold text-gray-800 mb-2">マルチモーダル活用</h4>
                 <p className="text-sm">文章・画像・音楽・コードなど複合的活用</p>
               </div>
-              
+
               <div className="bg-white p-4 rounded-lg shadow text-center md:col-span-3 lg:col-span-1">
                 <div className="w-12 h-12 mx-auto bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold mb-3">4</div>
                 <h4 className="font-bold text-gray-800 mb-2">実務シーンでの応用</h4>
                 <p className="text-sm">コード開発、ドキュメント作成、デザイン案生成</p>
               </div>
-              
+
               <div className="bg-white p-4 rounded-lg shadow text-center md:col-span-3 lg:col-span-2">
                 <div className="w-12 h-12 mx-auto bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold mb-3">5</div>
                 <h4 className="font-bold text-gray-800 mb-2">注意点とベストプラクティス</h4>
@@ -47,8 +47,8 @@ const SlideSummary = () => {
               </div>
             </div>
           </div>
-          
-          <div className="w-full max-w-3xl">
+
+          <div className="w-full max-w-5xl">
             <h3 className="text-lg font-bold text-gray-800 mb-3">セクション別の要点</h3>
             <div className="bg-white rounded-lg shadow overflow-hidden">
               <table className="min-w-full">
@@ -95,7 +95,7 @@ const SlideSummary = () => {
       title: "7.2 追加参考リソース",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl mb-6">
+          <div className="w-full mb-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white p-5 rounded-lg shadow">
                 <h3 className="text-lg font-bold text-blue-700 mb-4">公式ドキュメント</h3>
@@ -142,7 +142,7 @@ const SlideSummary = () => {
                   </li>
                 </ul>
               </div>
-              
+
               <div className="bg-white p-5 rounded-lg shadow">
                 <h3 className="text-lg font-bold text-blue-700 mb-4">学習リソース</h3>
                 <ul className="space-y-3">
@@ -190,8 +190,8 @@ const SlideSummary = () => {
               </div>
             </div>
           </div>
-          
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6">
+
+          <div className="w-full bg-blue-50 rounded-lg p-6">
             <h3 className="text-lg font-bold text-blue-800 mb-3 text-center">Prompt Engineering リソース</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-white p-3 rounded shadow">
@@ -224,24 +224,24 @@ const SlideSummary = () => {
       title: "7.3 クロージング",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-8 mb-6 text-center">
+          <div className="w-full bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-8 mb-6 text-center">
             <h3 className="text-2xl font-bold text-blue-800 mb-4">お疲れさまでした！</h3>
             <p className="text-lg mb-6">生成AI基礎から実務活用の研修は以上となります</p>
-            
+
             <div className="w-24 h-24 mx-auto bg-white rounded-full shadow-md flex items-center justify-center mb-6">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center text-blue-600">
                 <span className="text-3xl">🚀</span>
               </div>
             </div>
-            
-            <p className="text-gray-700 mb-4">今後も進化し続けるAI技術をキャッチアップし、<br/>業務効率化とスキルアップにお役立てください</p>
-            
+
+            <p className="text-gray-700 mb-4">今後も進化し続けるAI技術をキャッチアップし、<br />業務効率化とスキルアップにお役立てください</p>
+
             <div className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-bold shadow-lg transform transition-transform hover:scale-105">
               質疑応答タイム
             </div>
           </div>
-          
-          <div className="w-full max-w-3xl">
+
+          <div className="w-full max-w-5xl">
             <h3 className="text-lg font-bold text-gray-800 mb-3">今後の学習ステップ</h3>
             <div className="bg-white rounded-lg shadow overflow-hidden">
               <div className="p-5 border-b">
@@ -262,17 +262,17 @@ const SlideSummary = () => {
               </div>
             </div>
           </div>
-          
-          <div className="w-full max-w-3xl mt-6 bg-yellow-50 rounded-lg p-5">
+
+          <div className="w-full mt-6 bg-yellow-50 rounded-lg p-5">
             <h3 className="text-lg font-bold text-yellow-800 mb-2 text-center">研修アンケートのお願い</h3>
             <p className="text-center text-sm mb-4">今後の研修改善のため、アンケートへのご協力をお願いいたします</p>
             <div className="flex justify-center">
               <div className="inline-block bg-white px-4 py-2 rounded border border-yellow-300 text-center">
                 <p className="font-bold text-yellow-800 mb-1">アンケートQRコード</p>
                 <div className="w-32 h-32 mx-auto">
-                  <img 
-                    src={require('./images/qr.png')} 
-                    alt="アンケートQRコード" 
+                  <img
+                    src={require('./images/qr.png')}
+                    alt="アンケートQRコード"
                     className="w-full h-full object-contain"
                   />
                 </div>
@@ -285,24 +285,24 @@ const SlideSummary = () => {
       )
     }
   ];
-  
+
   // 現在のサブスライド
   const currentSubSlide = subSlides[subSlideIndex];
-  
+
   // サブスライドを進める
   const nextSubSlide = () => {
     if (subSlideIndex < subSlides.length - 1) {
       setSubSlideIndex(subSlideIndex + 1);
     }
   };
-  
+
   // サブスライドを戻す
   const prevSubSlide = () => {
     if (subSlideIndex > 0) {
       setSubSlideIndex(subSlideIndex - 1);
     }
   };
-  
+
   return (
     <div className="flex flex-col h-full">
       {/* サブスライドのタイトル */}
@@ -312,35 +312,33 @@ const SlideSummary = () => {
           サブスライド {subSlideIndex + 1} / {subSlides.length}
         </div>
       </div>
-      
+
       {/* サブスライドの内容 */}
       <div className="flex-grow overflow-y-auto">
         {currentSubSlide.content}
       </div>
-      
+
       {/* サブスライドのナビゲーション */}
       {subSlides.length > 1 && (
         <div className="flex justify-between mt-4 pt-2 border-t">
           <button
             onClick={prevSubSlide}
-            className={`flex items-center px-3 py-1 rounded text-sm ${
-              subSlideIndex > 0
+            className={`flex items-center px-3 py-1 rounded text-sm ${subSlideIndex > 0
                 ? 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                 : 'bg-gray-100 text-gray-400 cursor-not-allowed'
-            }`}
+              }`}
             disabled={subSlideIndex === 0}
           >
             <ChevronLeft size={14} className="mr-1" />
             前のポイント
           </button>
-          
+
           <button
             onClick={nextSubSlide}
-            className={`flex items-center px-3 py-1 rounded text-sm ${
-              subSlideIndex < subSlides.length - 1
+            className={`flex items-center px-3 py-1 rounded text-sm ${subSlideIndex < subSlides.length - 1
                 ? 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                 : 'bg-gray-100 text-gray-400 cursor-not-allowed'
-            }`}
+              }`}
             disabled={subSlideIndex === subSlides.length - 1}
           >
             次のポイント

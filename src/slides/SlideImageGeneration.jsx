@@ -3,7 +3,7 @@ import React from 'react';
 const SlideImageGeneration = () => {
   return (
     <div className="flex flex-col items-center">
-      <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6 mb-6">
+      <div className="w-full bg-blue-50 rounded-lg p-6 mb-6">
         <h3 className="text-xl font-bold text-blue-800 mb-4">画像生成AIの特徴</h3>
         <ul className="list-disc pl-6 space-y-3">
           <li>
@@ -28,7 +28,7 @@ const SlideImageGeneration = () => {
           <li><span className="font-semibold">活用シーン:</span> デザイン案の作成、イラスト制作、商品イメージ、広告素材、プレゼン資料</li>
         </ul>
       </div>
-      <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6 mb-6">
+      <div className="w-full bg-blue-50 rounded-lg p-6 mb-6">
         <h3 className="text-xl font-bold text-blue-800 mb-4">ImageFXでのハンズオン</h3>
         <p className="mb-4">
           ImageFXは無料で使えるGoogleの画像生成AIです。<br></br>
@@ -51,7 +51,7 @@ const SlideImageGeneration = () => {
           </a>
         </div>
       </div>
-      <div className="w-full max-w-2xl bg-gray-100 rounded-lg p-6 mb-6">
+      <div className="w-full bg-gray-100 rounded-lg p-6 mb-6">
         <div className="font-bold mb-2">プロンプト例（日本語）：</div>
         <div className="bg-white p-4 rounded border border-gray-300 mb-4">
           富士山を背景に、桜の木の下で伝統的な着物を着た女性が日本茶を飲んでいる様子。高品質な写真風。
@@ -107,7 +107,7 @@ const SlideImageGeneration = () => {
           </div>
         </div>
       </div>
-      <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6 mb-6">
+      <div className="w-full bg-blue-50 rounded-lg p-6 mb-6">
         <h3 className="text-xl font-bold text-blue-800 mb-4">画像生成AIの活用方法</h3>
         <ul className="list-disc pl-6 space-y-3">
           <li>商品イメージの作成</li>

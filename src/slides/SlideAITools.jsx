@@ -12,7 +12,7 @@ const SlideAITools = () => {
       title: "2.1 各サービスの特徴",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6 mb-6">
+          <div className="w-full bg-blue-50 rounded-lg p-6 mb-6">
             <h3 className="text-xl font-bold text-blue-800 mb-4">代表的な生成AIサービス</h3>
             <div className="space-y-6">
               <div className="bg-white p-4 rounded-lg shadow">
@@ -64,7 +64,7 @@ const SlideAITools = () => {
             </div>
           </div>
           
-          <div className="w-full max-w-3xl bg-gray-100 rounded-lg p-6">
+          <div className="w-full bg-gray-100 rounded-lg p-6">
             <h3 className="text-lg font-bold text-gray-800 mb-4">サービス比較表</h3>
             <div className="overflow-x-auto">
               <table className="min-w-full bg-white border border-gray-300">
@@ -103,7 +103,7 @@ const SlideAITools = () => {
       title: "2.2 Geminiの使い方 (ハンズオン)",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6 mb-6">
+          <div className="w-full bg-blue-50 rounded-lg p-6 mb-6">
             <h3 className="text-xl font-bold text-blue-800 mb-4">Geminiの基本操作</h3>
             <ol className="list-decimal pl-6 space-y-4">
               <li>
@@ -127,7 +127,7 @@ const SlideAITools = () => {
             </ol>
           </div>
           
-          <div className="w-full max-w-3xl grid grid-cols-2 gap-6 mb-6">
+          <div className="w-full grid grid-cols-2 gap-6 mb-6">
             <div className="bg-white p-4 rounded-lg shadow">
               <h4 className="font-bold text-gray-800 mb-3">プロンプト例1: 創作</h4>
               <div className="bg-gray-100 p-3 rounded mb-2 text-sm">
@@ -184,7 +184,7 @@ export default Counter;`}
             </div>
           </div>
           
-          <div className="w-full max-w-3xl bg-yellow-50 rounded-lg p-6">
+          <div className="w-full bg-yellow-50 rounded-lg p-6">
             <h3 className="text-lg font-bold text-yellow-800 mb-3">Gemini利用時の注意点</h3>
             <ul className="list-disc pl-6 space-y-2">
               <li><span className="font-semibold">課金不要:</span> 有料機能はBTMのWorkspaceのアカウントで利用可能です。</li>
@@ -202,7 +202,7 @@ export default Counter;`}
       title: "2.3 実践演習",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6 mb-6">
+          <div className="w-full bg-blue-50 rounded-lg p-6 mb-6">
             <h3 className="text-xl font-bold text-blue-800 mb-4">ハンズオン演習</h3>
             <p className="mb-4">Geminiを使って、以下のタスクに挑戦してみましょう：</p>
             
@@ -212,7 +212,7 @@ export default Counter;`}
                 <p className="mb-2">新しい技術サービスの紹介文を作成してください。</p>
                 <div className="bg-gray-100 p-3 rounded text-sm">
                   <p className="font-semibold">プロンプト例:</p>
-                  <p>「AIを活用したプログラミング学習アプリの紹介文を書いてください。主な機能は、コード診断、パーソナライズされた学習パス、リアルタイムフィードバックです。ターゲットは未経験から1年目のエンジニアで、300字程度でお願いします。」</p>
+                  <p>AIを活用したプログラミング学習アプリの紹介文を書いてください。主な機能は、コード診断、パーソナライズされた学習パス、リアルタイムフィードバックです。ターゲットは未経験から1年目のエンジニアで、300字程度でお願いします。</p>
                 </div>
               </div>
               
@@ -234,6 +234,7 @@ export default Counter;`}
                   
                   <div className="mt-2 relative">
                     <div className="bg-gray-800 p-3 rounded text-green-400 font-mono text-xs whitespace-pre-wrap code-to-copy">
+                      <pre>
                 {`import React, { useState, useEffect } from 'react';
 
 function WeatherApp() {
@@ -283,6 +284,7 @@ function WeatherApp() {
 }
 
 export default WeatherApp;`}
+                      </pre>
                     </div>
                     <button 
                       onClick={() => {
@@ -316,7 +318,7 @@ export default WeatherApp;`}
             </div>
           </div>
           
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6">
+          <div className="w-full bg-blue-50 rounded-lg p-6">
             <h3 className="text-lg font-bold text-blue-800 mb-3">効果的なプロンプトのコツ</h3>
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white p-3 rounded shadow">

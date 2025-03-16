@@ -12,7 +12,7 @@ const SlideReactLearning = () => {
       title: "6.1 React学習をAIで加速",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6 mb-6">
+          <div className="w-full bg-blue-50 rounded-lg p-6 mb-6">
             <h3 className="text-xl font-bold text-blue-800 mb-4">AIを活用したReact学習の利点</h3>
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white p-4 rounded shadow">
@@ -54,7 +54,7 @@ const SlideReactLearning = () => {
             </div>
           </div>
           
-          <div className="w-full max-w-3xl bg-gray-100 rounded-lg p-6">
+          <div className="w-full bg-gray-100 rounded-lg p-6">
             <h3 className="text-lg font-bold text-gray-800 mb-4">AIへの効果的な質問方法</h3>
             <div className="space-y-3">
               <div className="bg-white p-3 rounded shadow">
@@ -83,7 +83,7 @@ const SlideReactLearning = () => {
       title: "6.2 具体的フロー",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl mb-6">
+          <div className="w-full mb-6">
             <div className="relative">
               <div className="absolute left-8 inset-y-0 w-1 bg-blue-200"></div>
               <div className="space-y-6 relative">
@@ -162,7 +162,7 @@ const SlideReactLearning = () => {
             </div>
           </div>
           
-          <div className="w-full max-w-3xl bg-green-50 rounded-lg p-6">
+          <div className="w-full bg-green-50 rounded-lg p-6">
             <h3 className="text-lg font-bold text-green-800 mb-3">React学習のメリット</h3>
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white p-3 rounded shadow">
@@ -191,7 +191,7 @@ const SlideReactLearning = () => {
       title: "6.3 実践演習",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl bg-yellow-50 rounded-lg p-6 mb-6">
+          <div className="w-full bg-yellow-50 rounded-lg p-6 mb-6">
             <h3 className="text-xl font-bold text-yellow-800 mb-4">React学習ハンズオン演習</h3>
             <p className="mb-4">以下のいずれかのタスクをAIに依頼し、サンプルコードを生成してもらいましょう：</p>
             
@@ -225,7 +225,7 @@ const SlideReactLearning = () => {
             </div>
           </div>
           
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6">
+          <div className="w-full bg-blue-50 rounded-lg p-6">
             <h3 className="text-lg font-bold text-blue-800 mb-3">学習のステップアップ</h3>
             <div className="space-y-3">
               <div className="bg-white p-3 rounded shadow">

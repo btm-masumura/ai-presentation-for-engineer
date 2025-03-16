@@ -12,7 +12,7 @@ const SlidePythonGeneration = () => {
       title: "5.1 Google Colabとは",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6 mb-6">
+          <div className="w-full bg-blue-50 rounded-lg p-6 mb-6">
             <h3 className="text-xl font-bold text-blue-800 mb-4">Google Colabの基本</h3>
             <ul className="list-disc pl-6 space-y-3">
               <li><span className="font-semibold">概要:</span> GoogleのクラウドベースのPython実行環境。ブラウザ上でPythonコードを書いて実行できる</li>
@@ -37,7 +37,7 @@ const SlidePythonGeneration = () => {
             </div>
           </div>
           
-          <div className="w-full max-w-3xl bg-white rounded-lg shadow-sm p-6">
+          <div className="w-full bg-white rounded-lg shadow-sm p-6">
             <h3 className="text-lg font-bold text-gray-800 mb-3">Google Colabの基本操作</h3>
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-gray-100 p-3 rounded shadow">
@@ -66,7 +66,7 @@ const SlidePythonGeneration = () => {
       title: "5.2 AI生成による基本的なPythonプログラム",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl mb-6">
+          <div className="w-full mb-6">
             <div className="bg-gray-100 p-6 rounded-lg">
               <h3 className="text-xl font-bold text-gray-800 mb-4">簡単なPythonプログラム例</h3>
               
@@ -129,7 +129,7 @@ if __name__ == "__main__":
             </div>
           </div>
           
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6">
+          <div className="w-full bg-blue-50 rounded-lg p-6">
             <h3 className="text-lg font-bold text-blue-800 mb-3">Google Colabで最適なPythonプログラム</h3>
             <p className="mb-3">
               Google Colabは対話型ノートブック環境のため、次のようなプログラムが実行しやすく、学習に最適です：
@@ -169,7 +169,7 @@ if __name__ == "__main__":
       title: "5.3 AI活用によるPythonアプリ開発",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6 mb-6">
+          <div className="w-full bg-blue-50 rounded-lg p-6 mb-6">
             <h3 className="text-xl font-bold text-blue-800 mb-4">AIプロンプトでPythonアプリを開発</h3>
             <p className="mb-4">
               生成AIを使って簡単なPythonアプリケーションを作成できます。
@@ -230,7 +230,7 @@ if __name__ == "__main__":
             </div>
           </div>
           
-          <div className="w-full max-w-3xl">
+          <div className="w-full max-w-5xl">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
               <div className="bg-white rounded-lg shadow-sm overflow-hidden">
                 <div className="bg-purple-100 p-3">

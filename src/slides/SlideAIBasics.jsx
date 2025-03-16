@@ -12,7 +12,7 @@ const SlideAIBasics = () => {
         title: "1.1 AIとは",
         content: (
           <div className="flex flex-col items-center">
-            <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6 mb-6">
+            <div className="w-full bg-blue-50 rounded-lg p-6 mb-6">
               <h3 className="text-xl font-bold text-blue-800 mb-4">人工知能（AI）の基本</h3>
               <ul className="list-disc pl-6 space-y-3">
                 <li><span className="font-semibold">定義:</span> AIとは、人間が行う判断や作業を、コンピュータに自動で実行させる技術のこと。</li>
@@ -21,7 +21,7 @@ const SlideAIBasics = () => {
               </ul>
             </div>
             
-            <div className="w-full max-w-3xl mb-6">
+            <div className="w-full mb-6">
               <div className="font-bold text-gray-700 mb-4">AI技術の進化と身近な例</div>
               
               {/* 年表スタイルのタイムライン */}
@@ -132,7 +132,7 @@ const SlideAIBasics = () => {
       title: "1.2 生成AIとは",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6 mb-6">
+          <div className="w-full bg-blue-50 rounded-lg p-6 mb-6">
             <h3 className="text-xl font-bold text-blue-800 mb-4">生成AI (Generative AI) の特徴</h3>
             <ul className="list-disc pl-6 space-y-3">
               <li><span className="font-semibold">概要:</span> 学習したデータをもとに新しい文章・画像・音楽・プログラムなどを生成する技術</li>
@@ -147,7 +147,7 @@ const SlideAIBasics = () => {
             </ul>
           </div>
           
-          <div className="grid grid-cols-3 gap-4 w-full max-w-3xl mb-6">
+          <div className="grid grid-cols-3 gap-4 w-full mb-6">
             <div className="bg-purple-100 p-4 rounded-lg transform transition-all hover:scale-105 shadow-sm">
               <div className="text-purple-800 font-bold mb-2">テキスト生成</div>
               <div className="text-sm mb-2">ChatGPT, Claude, Gemini</div>
@@ -198,7 +198,7 @@ const SlideAIBasics = () => {
             </div>
           </div>
           
-          <div className="w-full max-w-3xl bg-gray-100 rounded-lg p-6">
+          <div className="w-full bg-gray-100 rounded-lg p-6">
             <h3 className="text-xl font-bold text-gray-800 mb-4">生成AIの仕組み (シンプルに)</h3>
             <div className="grid grid-cols-3 gap-4">
               <div className="bg-white p-3 rounded shadow text-center">
@@ -223,7 +223,7 @@ const SlideAIBasics = () => {
       title: "1.3 Geminiハンズオン演習",
       content: (
         <div className="flex flex-col items-center">
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6 mb-6">
+          <div className="w-full bg-blue-50 rounded-lg p-6 mb-6">
             <h3 className="text-xl font-bold text-blue-800 mb-4">Geminiでのハンズオン</h3>
             <p className="mb-4">
               Geminiは無料で使える高性能な生成AIです。（BTMアカウントでは有料版が利用できます。）<br></br>
@@ -247,7 +247,7 @@ const SlideAIBasics = () => {
             </div>
           </div>
           
-          <div className="w-full max-w-3xl mb-6">
+          <div className="w-full mb-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* 日常使いの例1：冷蔵庫の中身でレシピ */}
               <div className="bg-white rounded-lg shadow-sm overflow-hidden">
@@ -328,7 +328,7 @@ const SlideAIBasics = () => {
             </div>
           </div>
           
-          <div className="w-full max-w-3xl bg-blue-50 rounded-lg p-6">
+          <div className="w-full bg-blue-50 rounded-lg p-6">
             <h3 className="text-xl font-bold text-blue-800 mb-4">効果的なプロンプト設計（深津式）</h3>
             
             <div className="mb-4">

@@ -3,7 +3,7 @@ import React from 'react';
 const SlideIntro = () => {
   return (
     <div className="flex flex-col items-center">
-      <div className="w-full max-w-3xl bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-8 mb-6 text-center">
+      <div className="w-full bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-8 mb-6 text-center">
         <h1 className="text-3xl font-bold text-blue-800 mb-3">株式会社BTM <br></br>ITEエンジニア向け<br></br>生成AI講座</h1>
         <h2 className="text-2xl font-bold text-indigo-700 mb-6">生成AI基礎から実務活用</h2>
         
@@ -29,7 +29,7 @@ const SlideIntro = () => {
         <p className="text-gray-600">オンライン研修（3時間）</p>
       </div>
       
-      <div className="w-full max-w-3xl bg-white rounded-lg shadow-md p-6 mb-6">
+      <div className="w-full bg-white rounded-lg shadow-md p-6 mb-6">
         <h3 className="text-xl font-bold text-gray-800 mb-4">研修の概要</h3>
         <ul className="space-y-3">
           <li className="flex items-start">
@@ -78,7 +78,7 @@ const SlideIntro = () => {
         </ul>
       </div>
       
-      <div className="w-full max-w-3xl bg-white rounded-lg shadow-md p-6">
+      <div className="w-full bg-white rounded-lg shadow-md p-6">
         <h3 className="text-xl font-bold text-gray-800 mb-4">研修の内容</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="bg-gray-50 p-3 rounded">
