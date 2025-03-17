@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# AI プレゼンテーション
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ITEエンジニア向けの生成AI基礎から実務活用までを学ぶ、React + Tailwind CSSで作成されたプレゼンテーションアプリケーションです。
 
-## Available Scripts
+## 概要
 
-In the project directory, you can run:
+このプロジェクトは、株式会社BTMのITEエンジニア向け研修資料として、生成AIの基礎知識から実務での活用方法までをインタラクティブに学ぶためのプレゼンテーションツールです。  
+React と Tailwind CSS を使用して構築されており、スライドナビゲーション機能を備えています。
 
-### `npm start`
+## 主な機能
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- スライドベースのプレゼンテーションUI
+- キーボードナビゲーション（左右矢印キー）
+- サブスライドによる詳細コンテンツの表示
+- レスポンシブデザイン
+- アニメーションによるスライド遷移効果
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## コンテンツ構成
 
-### `npm test`
+1. **イントロダクション**
+   - 研修の概要と目的
+   - 対象者と前提知識
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **AIと生成AIの基礎**
+   - AI技術の進化と基本概念
+   - 生成AIの特徴と仕組み
+   - Geminiを使ったハンズオン演習
 
-### `npm run build`
+3. **代表的な生成AIツール**
+   - ChatGPT、Claude、Geminiの特徴比較
+   - Geminiの基本操作
+   - 実践演習
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **画像生成AI**
+   - 画像生成AIの特徴
+   - ImageFXを使ったハンズオン
+   - 活用方法
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. **音楽生成ハンズオン**
+   - Suno AIの概要
+   - 歌詞生成（Gemini）からジャケット作成（ImageFX）、楽曲生成（Suno）まで
+   - 生成した楽曲の共有
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6. **プログラム生成（Python）**
+   - Google Colabの基本
+   - AI生成Pythonプログラムの活用
+   - 実践アプリ開発
 
-### `npm run eject`
+7. **プログラム学習（React）**
+   - AIを活用したReact学習方法
+   - 具体的な開発フロー
+   - 実践演習
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+8. **まとめと参考リソース**
+   - 研修の要点
+   - 追加参考リソース
+   - 質疑応答
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 技術スタック
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React 19.0.0
+- Tailwind CSS 3.4.13
+- Lucide React (アイコン)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 開発環境のセットアップ
 
-## Learn More
+```bash
+# リポジトリをクローン
+git clone https://github.com/btm-masumura/ai-presentation-for-engineer.git
+cd ai-presentation-for-engineer
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 依存関係のインストール
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 開発サーバーの起動
+npm start
+```
 
-### Code Splitting
+## 使用方法
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. 開発サーバーを起動すると、ブラウザで http://localhost:3000 が開きます
+2. 画面下部のナビゲーションボタンまたは左右矢印キーでスライドを移動できます
+3. 各セクションにはサブスライドがあり、詳細コンテンツを確認できます
 
-### Analyzing the Bundle Size
+## カスタマイズ
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+新しいスライドを追加する場合は、以下の手順に従ってください：
 
-### Making a Progressive Web App
+1. `src/slides` ディレクトリに新しいスライドコンポーネントを追加
+2. `src/Presentation.jsx` ファイルの `slideComponents` 配列に新しいスライドを登録
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## ライセンス
 
-### Advanced Configuration
+このプロジェクトは[MITライセンス](LICENSE)の下で公開されています。
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 貢献
 
-### Deployment
+バグ報告や機能追加の提案は、Issueやプルリクエストでお気軽にどうぞ。
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 謝辞
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+このプレゼンテーションは、Claude 3.7 Sonnetを使用して作成されました。
