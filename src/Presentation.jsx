@@ -19,7 +19,7 @@ const Presentation = () => {
   
   // スライドコンポーネントの配列
   const slideComponents = [
-    { title: "SES企業エンジニア向け：生成AI基礎から実務活用", component: <SlideIntro /> },
+    { title: "株式会社BTM ITEエンジニア向け：生成AI基礎から実務活用", component: <SlideIntro /> },
     { title: "1. AIと生成AIの基礎", component: <SlideAIBasics /> },
     { title: "2. 代表的な生成AIツール", component: <SlideAITools /> },
     { title: "3. 画像生成AIの概要", component: <SlideImageGeneration /> },

@@ -15,7 +15,7 @@ const SlideMusicGeneration = () => {
           <div className="w-full bg-blue-50 rounded-lg p-6 mb-6">
             <h3 className="text-xl font-bold text-blue-800 mb-4">音楽生成AIの特徴</h3>
             <ul className="list-disc pl-6 space-y-3">
-              <li><span className="font-semibold">Suno.ai:</span> 歌詞からメロディ・ボーカルまで自動生成する音楽AI</li>
+              <li><span className="font-semibold">Suno AI:</span> 歌詞からメロディ・ボーカルまで自動生成する音楽AI</li>
               <li><span className="font-semibold">AIツール連携:</span> Geminiで歌詞、ImageFXでジャケット、Sunoで楽曲</li>
               <li><span className="font-semibold">メリット:</span> 音楽制作知識がなくても短時間で楽曲制作可能</li>
             </ul>
@@ -37,7 +37,7 @@ const SlideMusicGeneration = () => {
             <div className="bg-blue-100 p-4 rounded-lg flex flex-col items-center">
               <div className="text-blue-800 font-bold mb-2">3. 楽曲生成</div>
               <div className="h-24 bg-blue-200 rounded flex items-center justify-center p-2 text-sm text-center">
-                Suno.aiで音楽を生成
+                Suno AIで音楽を生成
               </div>
             </div>
           </div>
@@ -130,11 +130,11 @@ const SlideMusicGeneration = () => {
     },
     // サブスライド3: 楽曲生成
     {
-      title: "4.2.2 楽曲生成 (Suno.ai)",
+      title: "4.2.2 楽曲生成 (Suno AI)",
       content: (
         <div className="flex flex-col items-center">
           <div className="w-full bg-gray-100 rounded-lg p-6 mb-6">
-            <div className="font-bold mb-2">Suno.aiでの楽曲生成:</div>
+            <div className="font-bold mb-2">Suno AIでの楽曲生成:</div>
             <div className="bg-white p-4 rounded border border-gray-300 mb-4">
               <ol className="list-decimal pl-6 space-y-3">
                 <li><a href="https://suno.com" className="text-blue-600 underline">https://suno.com</a> にアクセス（アカウント作成が必要）

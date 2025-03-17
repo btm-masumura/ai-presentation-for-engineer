@@ -95,7 +95,7 @@ const SlideIntro = () => {
           </div>
           <div className="bg-gray-50 p-3 rounded">
             <p className="font-semibold text-blue-700">4. 音楽生成ハンズオン</p>
-            <p className="text-sm text-gray-600">Suno.ai×Gemini×ImageFX</p>
+            <p className="text-sm text-gray-600">Suno AI×Gemini×ImageFX</p>
           </div>
           <div className="bg-gray-50 p-3 rounded">
             <p className="font-semibold text-blue-700">5. プログラム生成（Python）</p>
